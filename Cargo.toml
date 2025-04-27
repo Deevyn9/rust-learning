@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "basics/data_types",
+    "basics/hello",
+    "basics/variables"
+]
