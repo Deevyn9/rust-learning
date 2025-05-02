@@ -1,6 +1,6 @@
 [workspace]
-members = [
-    "basics/data_types",
+members = [ "basics/control_flow",
+    "basics/data_types", "basics/functions",
     "basics/hello",
     "basics/variables"
 ]
