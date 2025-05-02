@@ -1,50 +1,50 @@
 fn main() {
     // integers
-    // let x: i8 = 10;
-    // println!("{}", x);
+    let x: i8 = 10;
+    println!("{}", x);
 
-    // let _y: u8 = 10;
+    let _y: u8 = 10;
 
-    // let decimal = 02_55;
-    // let hex = 0xff;
-    // let octal = 0o377;
-    // let binary = 0b1111_1111;
+    let decimal = 02_55;
+    let hex = 0xff;
+    let octal = 0o377;
+    let binary = 0b1111_1111;
 
-    // println! {"{}", decimal};
-    // println! {"{}", hex};
-    // println! {"{}", octal};
-    // println! {"{}", binary};
+    println! {"{}", decimal};
+    println! {"{}", hex};
+    println! {"{}", octal};
+    println! {"{}", binary};
 
-    // let byte = b'A';
-    // println! {"{}", byte};
+    let byte = b'A';
+    println! {"{}", byte};
 
     // floating point
-    // let x = 2.0; // f64 default
-    // let y: f32 = 1.0;
+    let x = 2.0; // f64 default
+    let y: f32 = 1.0;
 
     // booleans
-    // let t = true;
-    // let f: bool = false;
+    let t = true;
+    let f: bool = false;
 
-    // character type
-    // let c = "c";
+    character type
+    let c = "c";
 
     // + - * / % - arithmetics
 
-    // let a = 10;
-    // let b = 4;
+    let a = 10;
+    let b = 4;
 
-    // let remainder = a % b;
-    // println!("{}", remainder);
+    let remainder = a % b;
+    println!("{}", remainder);
 
     // tuples
-    // let tup = (500, "hi", true);
-    // println!("{}", tup.0);
-    // let (x, y, z) = tup;
+    let tup = (500, "hi", true);
+    println!("{}", tup.0);
+    let (x, y, z) = tup;
 
-    // println!("{}", x);
-    // println!("{}", y);
-    // println!("{}", z);
+    println!("{}", x);
+    println!("{}", y);
+    println!("{}", z);
 
     // arrays
     // let array = [1, 2, 3];
