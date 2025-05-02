@@ -47,12 +47,33 @@ fn main() {
     // println!("{}", z);
 
     // arrays
-    let array = [1, 2, 3];
+    // let array = [1, 2, 3];
 
-    println!("{}", array[0]);
+    // println!("{}", array[0]);
 
-    let mut array2: [i32; 3] = [4, 5, 6];
-    println!("{}", array2[0]);
-    array2[0] = 10;
-    println!("{}", array2[2]);
+    // let mut array2: [i32; 3] = [4, 5, 6];
+    // println!("{}", array2[0]);
+    // array2[0] = 10;
+    // println!("{}", array2[2]);
+
+    // Vectors
+    // let mut nums = vec![1, 2, 3];
+
+    // nums.push(4);
+    // println!("{:?}", nums);
+    // nums.pop();
+    // println!("{:?}", nums);
+
+    // let mut vec = Vec::new(); //vec
+    // vec.push("Test");
+    // vec.push("String");
+    // println!("{:?}", vec);
+
+    // vec.reverse();
+    // println!("{:?}", vec);
+
+    // let mut vect = Vec::<i32>::with_capacity(2);
+    // println!("{}", vect.capacity());
+
+    let v: Vec<i32> = (0..5).collect();
 }
